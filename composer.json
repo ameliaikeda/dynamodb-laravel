@@ -1,0 +1,32 @@
+{
+    "name": "amelia/dynamodb-laravel",
+    "description": "A service provider for laravel and dynamodb",
+    "type": "library",
+    "require": {
+        "illuminate/support": "~5.5",
+        "aws/aws-sdk-php": "~3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Amelia Ikeda",
+            "email": "amelia@dorks.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Amelia\\DynamoDb\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amelia\\DynamoDb\\DynamoDbServiceProvider"
+            ]
+        }
+    }
+}
