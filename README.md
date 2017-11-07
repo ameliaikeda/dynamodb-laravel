@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-composer require amelia/dynamodb
+composer require amelia/dynamodb-laravel
 ```
 
 If using Laravel 5.5 or higher, all you need to do is set the following environment variables:
